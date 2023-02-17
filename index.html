@@ -4,8 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+
     <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2" />
     <link rel="manifest" href="/manifest.json">
+
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+        integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous">
+        </script>
+
     <title>My Sample PWA</title>
 </head>
 
@@ -19,6 +25,11 @@
         </h1>
     </div>
     <script src="src/component/pas.js"></script>
+
+    <script>
+        let div_demo = $("#demo").text;
+        console.log("div_demo - " + div_demo);
+    </script>
 
 </body>
 
